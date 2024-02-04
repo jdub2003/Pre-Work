@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
     @IBAction func changeBackgroundColor(_ sender: UIButton) {
         let randomColor = changeColor()
         view.backgroundColor = randomColor
